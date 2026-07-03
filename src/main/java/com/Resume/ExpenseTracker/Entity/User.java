@@ -14,7 +14,7 @@ public class User {
     private String userName;
     private String password;
     private String currency;
-    private LocalDateTime createdAt;
+   // private LocalDateTime createdAt;
     private String enabled;
 
 }
