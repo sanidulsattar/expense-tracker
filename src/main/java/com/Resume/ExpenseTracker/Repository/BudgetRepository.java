@@ -1,4 +1,9 @@
 package com.Resume.ExpenseTracker.Repository;
 
-public interface BudgetRepository {
+import com.Resume.ExpenseTracker.Entity.Budget;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface BudgetRepository extends JpaRepository<Budget,Long> {
 }
